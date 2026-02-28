@@ -51,7 +51,8 @@
           "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone.",
           "enableFrameProcessors": true
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
