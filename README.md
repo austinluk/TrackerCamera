@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# TrackerCamera - Face Filter Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native camera app with real-time face detection and tracking capabilities.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Real-time face detection and tracking using Vision Camera
+- Face filter overlays powered by React Native Skia
+- Camera permissions handling
+- Photo capture with media library integration
+- Built with Expo and TypeScript
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- iOS Simulator or Android Emulator
+- Expo CLI
+
+### Installation
+
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Start the development server:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run on your device:
+   - Press `i` for iOS simulator
+   - Press `a` for Android emulator
+   - Scan QR code with Expo Go for physical device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **React Native** - Mobile framework
+- **Expo** - Development platform
+- **TypeScript** - Type safety
+- **Vision Camera** - Camera functionality
+- **React Native Skia** - 2D graphics rendering
+- **Face Detector** - ML-powered face tracking
 
-## Get a fresh project
+## Permissions
 
-When you're ready, run:
+The app requires:
 
-```bash
-npm run reset-project
-```
+- Camera access
+- Media library access (for saving photos)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Project Structure
 
-## Learn more
+- `app/` - Screen components and navigation
+- `components/` - Reusable UI components
+- `constants/` - App-wide constants and theme colors
+- `hooks/` - Custom React hooks
 
-To learn more about developing your project with Expo, look at the following resources:
+## Development
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+To modify the app, edit files in the `app/` directory. The project uses Expo Router for file-based routing.
