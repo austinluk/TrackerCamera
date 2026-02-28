@@ -41,6 +41,7 @@
     "react-native-safe-area-context": "~5.6.2",
     "react-native-screens": "~4.23.0",
     "react-native-vision-camera": "^4.7.3",
+    "react-native-vision-camera-face-detector": "^1.10.1",
     "react-native-web": "^0.21.0",
     "react-native-webview": "13.16.0",
     "react-native-worklets": "^0.7.4",
